@@ -6,11 +6,13 @@ li {
 @media screen and (min-width: 300px) {
   .col-md-3 {
     background-color: blue;
+    color: white;
   }
 }
 
 @media screen and (min-width: 500px) {
   .col-md-3 {
     background-color: purple;
+    color: white;
   }
 }
