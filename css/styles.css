@@ -1,16 +1,41 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+body {
+  background-color: yellow;
+  margin: 25px;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
+.header {
+  height: 150px;
+  background-color: blue;
+  border: solid black 1px;
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+.nav {
+  height: 50px;
+  background-color: green;
+  border: solid black 1px;
+}
+
+.content {
+  height: 200px;
+  background-color: red;
+  border: solid black 1px;
+}
+
+.aside {
+  height: 200px;
+  background-color: lightblue;
+  border: solid black 1px;
+}
+
+.promo {
+  height: 200px;
+  background-color: orange;
+  border: solid black 1px;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: solid black 1px;
 }
